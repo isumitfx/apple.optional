@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/registration.css">
+     
+	 <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+	
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>GSX Account Regisration Form</title> 
+</head>
+<body>
+    <div class="container">
+		<h1 id="GSXlogo">Apple Global Service Exchange</h1>
+        <header>Registration Form</header>
+        <form id="form">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input id="inputFullName" type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input id="inputDOB" type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email Address</label>
+                            <input id="inputEmailAddress" type="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input id="inputMobileNumber" type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select id="inputGender" required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input id="inputOccupation" type="text" placeholder="Enter your ccupation" required>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input id="inputAddress" type="text" placeholder="Permanent address" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>City</label>
+                            <input id="inputCity" type="text" placeholder="Enter city" required>
+                        </div>
+						
+						<div class="input-field">
+                            <label>Postal Code</label>
+                            <input id="inputPostalCode" type="number" placeholder="Enter postal code" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input id="inputState" type="text" placeholder="Enter your state" required>
+                        </div>
+						
+						<div class="input-field">
+                            <label>District</label>
+                            <input id="inputDistrict" type="text" placeholder="Enter your district" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Country</label>
+                            <input id="inputCountry" type="text" placeholder="Enter your country" required>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="details family">
+                    <span class="title">Payment Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Card Holder Name</label>
+                            <input id="inputNameOnCard" type="text" placeholder="Name on card" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Card Number</label>
+                            <input id="inputCardNumber" type="text" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Expiry Date</label>
+                            <input id="inputExpiry" type="text" placeholder="MM / YY" maxlength="4" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>CVV</label>
+                            <input id="inputCVV" type="text" placeholder="CVV / CVC" maxlength="3" required>
+                        </div>
+                    </div>
+
+                    <div  class="buttons">                        
+                        <button class="sumbit">
+                            <span class="btnText">Buy Now</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+			
+        </form>
+    </div>
+	<script src="js/order.js"></script>
+</body>
+</html>
